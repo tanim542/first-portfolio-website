@@ -23,6 +23,11 @@
     border: none;
 }
 
+.header{
+    background-image: url(../images/developer.png), url(../images/header_bg.png) ;
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
 /* nav style */
 nav {
 
@@ -44,9 +49,32 @@ nav ul li {
 }
 nav ul a {
     text-decoration: none;
-    font-size: 20px;;
+    font-size: 20px;
 }
 nav ul {
     display: flex;
    align-items: center;
+}
+
+/* banner style */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 38px 0px 230px
+}
+.banner-content{
+    max-width: 585px;
+}
+.banner-greeting {
+   font-size: 45px;
+    font-weight: 600;
+
+}
+.banner-tittle{
+    font-weight: bold;
+    font-size: 85px;
+}
+.banner-pic{
+    width:584px;
+    height: 676px;
 }
