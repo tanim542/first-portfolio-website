@@ -10,14 +10,43 @@
 .text-primary {
     color: #FD6E0A;
 }
+.dark-2{
+    color:#474747;
+}
+.btn-primary {
+    background-color: #FD6E0A ;
+    font-weight: 700;
+    color: white;
+    padding: 18px 35px 19px 36px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+}
 
 /* nav style */
 nav {
 
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+
 }
 
 .nav-tittle {
     font-size: 45px;
     font-weight: 800;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 51px;;
+}
+nav ul a {
+    text-decoration: none;
+    font-size: 20px;;
+}
+nav ul {
+    display: flex;
+   align-items: center;
 }
