@@ -206,6 +206,7 @@ main section {
 footer {
     display: flex;
     gap: 117px;
+    padding: 130px 230px 218px 230px;
 }
 
 .footer-column {
@@ -216,10 +217,10 @@ footer input[type="text"],
 footer input[type="email"],
 footer textarea {
     height: 64px;
-    width: 30%;
+    width: 100%;
     border-radius: 5px;
     border: none;
-    padding: 18px 349px 18px 30px;
+    padding: 10px 120px 10px 30px;
     display: block;
     background-color: white;
     font-size: 16px;
